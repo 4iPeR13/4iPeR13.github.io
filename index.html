@@ -3,17 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sudoku Realms</title>
+<title>Games</title>
 <style>
-  body { font: 16px/1.6 -apple-system, system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 48px 16px; color: #222; text-align: center; }
-  h1 { font-size: 2.2rem; margin-bottom: .2em; }
+  body { font: 16px/1.6 -apple-system, system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 48px 16px; color: #222; }
+  h1 { font-size: 2rem; margin-bottom: 1rem; }
   a { color: #b8760a; }
-  @media (prefers-color-scheme: dark) { body { background: #111; color: #ddd; } a { color: #f0b040; } }
+  .card { display: block; padding: 20px; border: 1px solid #ccc; border-radius: 14px; text-decoration: none; color: inherit; }
+  .card:hover { border-color: #b8760a; }
+  .card h2 { margin: 0 0 .25em; font-size: 1.3rem; }
+  .card p { margin: 0; opacity: .8; }
+  footer { margin-top: 3rem; font-size: .9rem; opacity: .8; }
+  @media (prefers-color-scheme: dark) { body { background: #111; color: #ddd; } .card { border-color: #333; } a { color: #f0b040; } }
 </style>
 </head>
 <body>
-<h1>Sudoku Realms</h1>
-<p>Classic Sudoku, Sudoku X, Killer, Wordoku, Jigsaw and Samurai for iPhone and iPad.</p>
-<p><a href="privacy.html">Privacy Policy</a> · Support: <a href="mailto:gleb.s.baranov@gmail.com">gleb.s.baranov@gmail.com</a></p>
+<h1>Games</h1>
+<a class="card" href="games/sudoku-realms/">
+  <h2>Sudoku Realms</h2>
+  <p>Six Sudoku types in one game for iPhone and iPad.</p>
+</a>
+<footer>Contact: <a href="mailto:gleb.s.baranov@gmail.com">gleb.s.baranov@gmail.com</a></footer>
 </body>
 </html>
